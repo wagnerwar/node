@@ -11,6 +11,7 @@ var srv = http.createServer( (req, res) => {
 srv.on('connection',function (socket) {
     
     console.log("Evento connection sendo chamado");
+    console.log("Log de teste");
  });
  
  srv.on('request',function (request,response) {
