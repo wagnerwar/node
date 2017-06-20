@@ -10,7 +10,7 @@ var srv = http.createServer( (req, res) => {
 
 srv.on('connection',function (socket) {
     
-    console.log("Evento connection");
+    console.log("Evento connection sendo chamado");
  });
  
  srv.on('request',function (request,response) {
