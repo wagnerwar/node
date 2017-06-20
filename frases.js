@@ -3,7 +3,7 @@
     carregaFrase = function (callback) {  
       setTimeout(function() {
         //Simula leitura da frase no banco de dados.
-        frase = "Minha frase obstrutiva";
+        frase = "Minha frase";
         callback();
       }, 3000)
     }
